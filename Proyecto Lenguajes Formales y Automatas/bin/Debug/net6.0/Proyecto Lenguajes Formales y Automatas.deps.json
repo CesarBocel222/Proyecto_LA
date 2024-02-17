@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Proyecto Lenguajes Formales y Automatas/1.0.0": {
+        "runtime": {
+          "Proyecto Lenguajes Formales y Automatas.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Proyecto Lenguajes Formales y Automatas/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

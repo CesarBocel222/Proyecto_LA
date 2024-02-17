@@ -30,7 +30,7 @@ namespace Proyecto_Lenguajes_Formales_y_Automatas.DATA
                         contieneSets = true;
                         break;
                     }
-                    else if (Validaciones.IniciaEnToken(linea) && (contador == 1 || contador == 0))
+                    else if (ExpresionRegularTOKENS.IniciaEnToken(linea) && (contador == 1 || contador == 0))
                     {
                         //  TODO: Indica que vienen los tokens en orden correcto
                         contador = contador == 0 ? contador + 2 : contador + 1;
@@ -44,12 +44,12 @@ namespace Proyecto_Lenguajes_Formales_y_Automatas.DATA
                         contieneActions = true;
                         break;
                     }
-                    else if (Validaciones.IniciaEnError(linea) && contador == 3)
+                    else if (ExpresionRegularERROR.IniciaEnError(linea) && contador == 3)
                     {
                         contieneError = true;
                         break;
                     }
-                    else if (!ExpresionRegularSETS.IniciaEnSets(linea) && !Validaciones.IniciaEnToken(linea) && !ExpresionRegularACTION.IniciaEnAction(linea) && !Validaciones.IniciaEnError(linea))
+                    else if (!ExpresionRegularSETS.IniciaEnSets(linea) && !ExpresionRegularTOKENS.IniciaEnToken(linea) && !ExpresionRegularACTION.IniciaEnAction(linea) && !ExpresionRegularERROR.IniciaEnError(linea))
                     {
                         contador++;
                         break;
@@ -94,7 +94,7 @@ namespace Proyecto_Lenguajes_Formales_y_Automatas.DATA
                 {
                     lineaActual = sr.ReadLine();
                     //  TODO: Encuentra una seccion e agregar 
-                    if ((Validaciones.IniciaEnToken(lineaActual) || ExpresionRegularACTION.IniciaEnAction(lineaActual) || Validaciones.IniciaEnError(lineaActual)) && tempList.Grupo.Count > 0)
+                    if ((ExpresionRegularTOKENS.IniciaEnToken(lineaActual) || ExpresionRegularACTION.IniciaEnAction(lineaActual) || ExpresionRegularERROR.IniciaEnError(lineaActual)) && tempList.Grupo.Count > 0)
                     {
                         ListaLists.Add(tempList);
                         tempList = new Gramatica();
@@ -178,7 +178,7 @@ namespace Proyecto_Lenguajes_Formales_y_Automatas.DATA
                 return true;
             }
         }
-        else if (Validaciones.IniciaEnToken(list[0]))
+        else if (ExpresionRegularTOKENS.IniciaEnToken(list[0]))
         {
             //  TODO: Aun falta revisarlo xd
             var verificationResult = checkPattern(list, actualRow);
@@ -232,7 +232,7 @@ namespace Proyecto_Lenguajes_Formales_y_Automatas.DATA
                 return false;
             }
         }
-        else if (Validaciones.IniciaEnError(list[0]))//Si el primer elemento de la lista es un ERROR
+        else if (ExpresionRegularERROR.IniciaEnError(list[0]))//Si el primer elemento de la lista es un ERROR
         {
             //  TODO: Aun falta revisarlo xd
             var verificationResult = checkPattern(list, actualRow);
@@ -266,7 +266,7 @@ namespace Proyecto_Lenguajes_Formales_y_Automatas.DATA
         int row = fila; //indica la fila actual
         try
         {
-            if (list.Count > 1 || Validaciones.IniciaEnError(list[0]))//si existe almenos 1 elemento más que el indicador de la parte
+            if (list.Count > 1 || ExpresionRegularERROR.IniciaEnError(list[0]))//si existe almenos 1 elemento más que el indicador de la parte
             {
                 foreach (string element in list) //recorre la lista elemento por elemento
                 {
@@ -292,7 +292,7 @@ namespace Proyecto_Lenguajes_Formales_y_Automatas.DATA
 
                         case "TOKENS":
 
-                            if (Validaciones.IniciaEnToken(element) || Validaciones.ContenidoValidoTokens(element))
+                            if (ExpresionRegularTOKENS.IniciaEnToken(element) || ExpresionRegularTOKENS.ContenidoValidoTokens(element))
                                 row++;
                             else
                             {
@@ -312,8 +312,8 @@ namespace Proyecto_Lenguajes_Formales_y_Automatas.DATA
                             break;
                         case @"(\s*\w*ERROR\w*\s*=)(\s*\d*\s*)":
 
-                            if (Validaciones.IniciaEnError(element) || Validaciones.ContenidoValidoError(element))
-                                row++;
+                            if (ExpresionRegularERROR.IniciaEnError(element) || ExpresionRegularERROR.ContenidoValidoError(element))
+                                    row++;
                             else
                             {
                                 row++;
