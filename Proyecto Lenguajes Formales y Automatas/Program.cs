@@ -1,12 +1,37 @@
-﻿using System;
+﻿using Proyecto_Lenguajes_Formales_y_Automatas.DATA;
+using System;
 using System.IO;
 using System.Text.RegularExpressions;
 
 class Program
 {
+    //Se uso este github
     static void Main()
     {
-       
+        Console.WriteLine("_______Bienvenido Parte 1: Lenguajes Formales y Automatas______\n");
+        string filePath = "C:/Users/50255/Desktop/URL/Septimo semestre/Lenguajes Formales y Automatas/Tarea2 Lenguajes formales/Prueba.txt";
+        do
+        {
+            var al = new Verificaror();
+            var gramatica = al.ReadFile(filePath);
+            if (gramatica.Count > 0)
+            {
+                var ordenCorrecto = al.VerifyOrderSection(gramatica);
+                if (ordenCorrecto)
+                    if (al.VerifyGramar(gramatica))
+                        Console.WriteLine("Gramática correcta. :P");
+                Console.WriteLine("-------------------------------------------------------");
+                Console.WriteLine("\nIngrese q para salir o el nombre de un nuevo archivo");
+                filePath = Console.ReadLine();
+                Console.WriteLine("\n\t Espere...");
+            }
+            else
+            {
+                Console.WriteLine("Ingrese el nombre de otro archivo");
+                filePath = Console.ReadLine();
+            }
+        } while (!Regex.IsMatch(filePath, @"[Qq]"));
+
 
     }
 

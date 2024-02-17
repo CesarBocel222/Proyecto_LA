@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Proyecto_Lenguajes_Formales_y_Automatas.DATA
 {
-    public class Validaciones
+    public class ExpresionRegularSETS
     {
-        //El timeSpan sacado de Github https://github.com/diegoazurdia1998/Proyecto-LenguajesFormalesYAutomatas/blob/Fase1/ProjectoLFA/ProjectoLFA/Data/Validaciones.cs
+        //Con ayuda de Github https://github.com/diegoazurdia1998/Proyecto-LenguajesFormalesYAutomatas/blob/Fase1/ProjectoLFA/ProjectoLFA/Data/Validaciones.cs
         //El tiempo que espera en detectar una coincidencia 
         static TimeSpan timeout = new TimeSpan(0, 0, 5);
 
