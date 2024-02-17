@@ -1,0 +1,14 @@
+C:\Users\50255\Desktop\URL\Septimo semestre\Lenguajes Formales y Automatas\Proyecto Lenguajes Formales y Automatas\bin\Debug\net6.0\Proyecto Lenguajes Formales y Automatas.exe
+C:\Users\50255\Desktop\URL\Septimo semestre\Lenguajes Formales y Automatas\Proyecto Lenguajes Formales y Automatas\bin\Debug\net6.0\Proyecto Lenguajes Formales y Automatas.deps.json
+C:\Users\50255\Desktop\URL\Septimo semestre\Lenguajes Formales y Automatas\Proyecto Lenguajes Formales y Automatas\bin\Debug\net6.0\Proyecto Lenguajes Formales y Automatas.runtimeconfig.json
+C:\Users\50255\Desktop\URL\Septimo semestre\Lenguajes Formales y Automatas\Proyecto Lenguajes Formales y Automatas\bin\Debug\net6.0\Proyecto Lenguajes Formales y Automatas.dll
+C:\Users\50255\Desktop\URL\Septimo semestre\Lenguajes Formales y Automatas\Proyecto Lenguajes Formales y Automatas\bin\Debug\net6.0\Proyecto Lenguajes Formales y Automatas.pdb
+C:\Users\50255\Desktop\URL\Septimo semestre\Lenguajes Formales y Automatas\Proyecto Lenguajes Formales y Automatas\obj\Debug\net6.0\Proyecto Lenguajes Formales y Automatas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\50255\Desktop\URL\Septimo semestre\Lenguajes Formales y Automatas\Proyecto Lenguajes Formales y Automatas\obj\Debug\net6.0\Proyecto Lenguajes Formales y Automatas.AssemblyInfoInputs.cache
+C:\Users\50255\Desktop\URL\Septimo semestre\Lenguajes Formales y Automatas\Proyecto Lenguajes Formales y Automatas\obj\Debug\net6.0\Proyecto Lenguajes Formales y Automatas.AssemblyInfo.cs
+C:\Users\50255\Desktop\URL\Septimo semestre\Lenguajes Formales y Automatas\Proyecto Lenguajes Formales y Automatas\obj\Debug\net6.0\Proyecto Lenguajes Formales y Automatas.csproj.CoreCompileInputs.cache
+C:\Users\50255\Desktop\URL\Septimo semestre\Lenguajes Formales y Automatas\Proyecto Lenguajes Formales y Automatas\obj\Debug\net6.0\Proyecto Lenguajes Formales y Automatas.dll
+C:\Users\50255\Desktop\URL\Septimo semestre\Lenguajes Formales y Automatas\Proyecto Lenguajes Formales y Automatas\obj\Debug\net6.0\refint\Proyecto Lenguajes Formales y Automatas.dll
+C:\Users\50255\Desktop\URL\Septimo semestre\Lenguajes Formales y Automatas\Proyecto Lenguajes Formales y Automatas\obj\Debug\net6.0\Proyecto Lenguajes Formales y Automatas.pdb
+C:\Users\50255\Desktop\URL\Septimo semestre\Lenguajes Formales y Automatas\Proyecto Lenguajes Formales y Automatas\obj\Debug\net6.0\Proyecto Lenguajes Formales y Automatas.genruntimeconfig.cache
+C:\Users\50255\Desktop\URL\Septimo semestre\Lenguajes Formales y Automatas\Proyecto Lenguajes Formales y Automatas\obj\Debug\net6.0\ref\Proyecto Lenguajes Formales y Automatas.dll
