@@ -9,8 +9,7 @@ namespace Proyecto_Lenguajes_Formales_y_Automatas.DATA
 {
     public class ExpresionRegularACTION
     {
-        static TimeSpan timeout = new TimeSpan(0, 0, 5);
-        
+
         public static bool IniciaEnAction(string linea)
         {
             return Regex.IsMatch(linea, @"^ACTIONS\s*$");
@@ -23,7 +22,6 @@ namespace Proyecto_Lenguajes_Formales_y_Automatas.DATA
 
             return !string.IsNullOrEmpty(matchs[0].Value);
 
-            //return Regex.IsMatch(linea, @"^\s*([A-Z0-9_]+\(\))|({\s*)|(}\s*)|(\s*\d*\s*=\s*'[A-Z]*'\s*)|\s*$");
         }
     }
 }

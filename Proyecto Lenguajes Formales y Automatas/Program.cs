@@ -5,11 +5,11 @@ using System.Text.RegularExpressions;
 
 class Program
 {
-    //Se uso este github
+    //Se uso un metodo de github https://github.com/SantiagoBocel/Lenguajes para las verificaciones
     static void Main()
     {
         Console.WriteLine("_______Bienvenido Parte 1: Lenguajes Formales y Automatas______\n");
-        string filePath = "C:/Users/50255/Desktop/URL/Septimo semestre/Lenguajes Formales y Automatas/Tarea2 Lenguajes formales/Prueba.txt";
+        string filePath = "C:/Users/50255/Desktop/URL/Septimo semestre/Lenguajes Formales y Automatas/Proyecto Lenguajes Formales y Automatas/Archivos/prueba3.txt";
         do
         {
             var al = new Verificaror();
@@ -19,7 +19,7 @@ class Program
                 var ordenCorrecto = al.VerifyOrderSection(gramatica);
                 if (ordenCorrecto)
                     if (al.VerifyGramar(gramatica))
-                        Console.WriteLine("Gramática correcta. :P");
+                        Console.WriteLine("Gramática correcta. ");
                 Console.WriteLine("-------------------------------------------------------");
                 Console.WriteLine("\nIngrese q para salir o el nombre de un nuevo archivo");
                 filePath = Console.ReadLine();

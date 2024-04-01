@@ -1,13 +1,12 @@
 SETS
 	LETRA   = 'A'..'Z'+'a'..'z'+'_'
 	DIGITO  = '0'..'9'
-	CHARSET = CHR(32)..CHR(254)
 TOKENS
-	TOKEN 1= DIGITO DIGITO *
-	TOKEN 2='"' CHARSET '"'|''' CHARSET '''
+	TOKEN 1 = DIGITO DIGITO *
+	TOKEN 2 = '"' CHARSET '"'|''' CHARSET '''
 	TOKEN  4  = '='
 	TOKEN  5  = '<''>'
-	TOKEN  6  = '<'
+	TOKEN  6 = '<'
 	TOKEN  7  = '>'
 	TOKEN  8  = '>''='
 	TOKEN  9  = '<''='
@@ -22,7 +21,7 @@ TOKENS
 	TOKEN  40  = '(''*'
 	TOKEN  41  = '*'')'
 	TOKEN  42  = ';'
-	TOKEN  43  = '.'
+	TOKEN 43  = '.'
 	TOKEN  44  = '{'
 	TOKEN  45  = '}'
 	TOKEN  46  = '('
@@ -32,7 +31,7 @@ TOKENS
 	TOKEN  50  = '.''.'
 	TOKEN  51  = ':'
 	TOKEN  52  = ','
-	TOKEN  53  = ':''='
+	TOKEN  4  = ':''='
 	TOKEN 3= LETRA ( LETRA | DIGITO )*   { RESERVADAS() } 
 ACTIONS 
 RESERVADAS() 
