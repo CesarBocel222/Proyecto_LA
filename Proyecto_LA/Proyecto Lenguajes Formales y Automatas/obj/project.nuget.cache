@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "sN91UW4V6CyJQw8DUhF0frj9WjyUjmTVLLjZNaNKFfgiiTwk3N31yMBkGAGEk0n8lXlrz9euKeauEOV1twdRQg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hemil\\OneDrive\\Desktop\\Lenguajes\\Proyecto_LA\\Proyecto Lenguajes Formales y Automatas\\Proyecto Lenguajes Formales y Automatas.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hemil\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\hemil\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\hemil\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\hemil\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+  ],
+  "logs": []
+}
