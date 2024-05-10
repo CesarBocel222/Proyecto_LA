@@ -1,0 +1,42 @@
+TAREA 
+EJERCICIO 1
+G = {T,NT,S,P}
+T = {a,b}
+NT = {L}
+S = $ 
+P =
+$ -> L
+L -> aLb | ε
+
+
+Ejercicio 2
+G = {T,NT,S,P}
+T = {0,1,2,3,4,5,6,7,8,9,+,*}
+NT = {N,R}
+S = $ 
+P =
+$ -> R  
+R -> N + N | N * N  
+N -> 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9| NN | R | ε
+
+
+Ejercicio 3
+G {NT, T, S, P}
+T = {0,1,2,3,4,5,6,7,8,9,+,*,-,(,)}
+NT {T, N, F}
+S = $
+P = 
+$ -> T
+T -> F | T + F | T - F | T * F | T / F
+F -> N | ( T ) | T
+N -> 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | NN
+
+Ejercicio 4 
+G = {T , NT, S ,P}
+T = {0,1,2,3,4,5,6,7,8,9,".", -}
+NT = {R, E, F, N}
+S = $
+P =
+R -> N | N . N | -N 
+N -> 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | R | NN
+
